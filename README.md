@@ -12,10 +12,12 @@ Steps for classification:
 As the data set is less we need to add more images to our data, this is achieved by "ImageDataGenerator" which is a part of "tensorflow.keras.preprocessing.image" import
 
 2) Preprocessing :
-removed the excess part of the image applied thresholding and performed image opening and found image Contours.
+Removed the excess part of the image applied thresholding and performed image opening and found image Contours.
 
 3) Data visualization:
+The two class data is visualized with the help of "matplotlib".
+
 
 4) Model creation and visualize results:
-Used a convolution and maxpooling layers and as the output is binary used "Sigmoid" activation at the end.
+Used a convolution and maxpooling layers and as the output is binary used "Sigmoid" activation at the output layer.
 
